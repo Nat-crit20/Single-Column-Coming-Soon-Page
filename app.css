@@ -1,15 +1,32 @@
 body {
   background-color: white;
   text-align: center;
+  font-family: "Libre Franklin", sans-serif;
 }
 
 main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 3rem;
+}
+header img {
+  width: 3.5rem;
+}
+
+h1 {
+  color: hsl(0, 0%, 59%);
+  font-weight: 300;
+}
+strong {
+  color: hsl(209, 33%, 12%);
+  font-weight: 700;
+}
+header p {
+  font-size: 12px;
 }
 
 .dashboard-img {
-  width: 50%;
-  max-width: 300px;
+  width: 30%;
+  min-width: 300px;
 }
