@@ -8,7 +8,8 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 3rem;
+  align-items: center;
+  padding: 2rem 0 0 0;
 }
 header img {
   width: 3.5rem;
@@ -17,6 +18,8 @@ header img {
 h1 {
   color: hsl(0, 0%, 59%);
   font-weight: 300;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 strong {
   color: hsl(209, 33%, 12%);
@@ -25,8 +28,94 @@ strong {
 header p {
   font-size: 12px;
 }
+@media screen {
+  header img {
+    width: 3rem;
+  }
 
+  h1 {
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  header p {
+    font-size: 10px;
+  }
+}
+form {
+  margin: 1rem 0 2.5rem 0;
+}
+#email {
+  opacity: 50%;
+  font-size: 12px;
+  background-color: white;
+  color: hsl(223, 100%, 88%);
+  border: 1px solid hsl(223, 100%, 88%);
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+}
+
+button {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 12px;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  background-color: hsl(223, 87%, 63%);
+  border: 1px solid hsl(223, 87%, 63%);
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color: hsl(223, 100%, 88%);
+  border: none;
+  border-color: hsl(223, 100%, 88%);
+  box-shadow: 0 4px 10px -2px hsl(223, 100%, 88%);
+}
+@media screen {
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  #email {
+    padding: 0.7rem 2rem;
+  }
+  button {
+    padding: 0.7rem 2rem;
+    margin-top: 0.5rem;
+  }
+}
 .dashboard-img {
   width: 30%;
   min-width: 300px;
+}
+
+.icons {
+  margin: 2rem 0 0 0;
+}
+i {
+  padding: 0.5rem 0;
+  width: 1rem;
+  border-radius: 50%;
+  border: 0.5px solid hsl(223, 100%, 88%);
+  color: hsl(223, 87%, 63%);
+  margin: 10px 3px;
+  cursor: pointer;
+}
+i:hover {
+  background-color: hsl(223, 87%, 63%);
+  color: white;
+}
+@media screen {
+  .icons {
+    margin: 7rem 0 0 0;
+  }
+}
+footer {
+  font-size: 0.5rem;
+}
+footer p {
+  color: hsl(0, 0%, 59%);
 }
