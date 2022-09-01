@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://val7997.github.io/Single-Column-Coming-Soon-Page/)
+- Live Site URL: [Single-Column-Coming-Soon-Page](https://val7997.github.io/Single-Column-Coming-Soon-Page/)
 
 ## My process
 
