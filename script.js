@@ -29,7 +29,7 @@ form.addEventListener("submit", function (e) {
       "visible",
       "Whoops! It looks like you forgot to add your email"
     );
-  } else if (!checkEmail()) {
+  } else if (checkEmail() === false) {
     toggleVisible(
       `1px solid hsl(354, 100%, 66%)`,
       "visible",
