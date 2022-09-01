@@ -34,13 +34,17 @@
         <p>Subscribe and get notified</p>
       </header>
       <form action="">
-        <input
-          id="email"
-          type="email"
-          placeholder="Your email address..."
-          size="30"
-          required
-        />
+        <div class="email-input">
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Your email address..."
+            size="30"
+          />
+          <p class="error-msg"></p>
+        </div>
+
         <button type="submit">Notify Me</button>
       </form>
       <div>
