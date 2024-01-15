@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Single-Column-Coming-Soon-Page](https://val7997.github.io/Single-Column-Coming-Soon-Page/)
+- Live Site URL: [Single-Column-Coming-Soon-Page](https://Nat-crit20.github.io/Single-Column-Coming-Soon-Page/)
 
 ## My process
 
@@ -47,7 +47,7 @@ Users should be able to:
 
 ### What I learned
 
-For this project I continued to learn more about how to access data from a submited form. I also learned about different forms of client side validation.
+For this project, I continued to learn more about how to access data from a submitted form. I also learned about different forms of client-side validation.
 
 ### Continued development
 
@@ -55,4 +55,4 @@ I would like to continue to learn about different forms of validation
 
 ## Author
 
-- Val7997 - [@Val7997](https://www.frontendmentor.io/profile/Val7997)
+- Nat-crit20 - [@Nat-crit20](https://www.frontendmentor.io/profile/Nat-crit20)
